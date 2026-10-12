@@ -1,0 +1,46 @@
+name: factworld
+description: "FactWorld - High-density warm minimalist world geography and facts app using REST Countries API."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Networking
+  dio: ^5.7.0
+
+  # Image & SVG Rendering
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.0.17
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Utilities & URL
+  url_launcher: ^6.3.1
+  intl: ^0.19.0
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: "assets/images/logo.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/countries.json
+    - assets/images/
