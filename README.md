@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>Aplikasi Ensiklopedia Geografi & Fakta Negara Berkecepatan Tinggi</b><br />
+  <b>Aplikasi Ensiklopedia Geografi & Fakta Negara</b><br />
   Dibangun dengan Flutter & Clean Architecture mengusung filosofi desain <i>High-Density Warm Minimalist</i>.
 </p>
 
